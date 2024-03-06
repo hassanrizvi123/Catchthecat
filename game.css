@@ -1,0 +1,16 @@
+  body{
+    background-color: aqua;
+  }
+  #billi {
+    position: absolute;
+    width: 50px;
+    height: 50px;
+    background-color: orange;
+    border-radius: 50%;
+    transition: all 0.2s ease-in-out; /* Added for smooth animation */
+  }
+  
+  #billi.move {
+    transform: translate(50px, 50px); /* Adjust values as needed */
+  }
+  
